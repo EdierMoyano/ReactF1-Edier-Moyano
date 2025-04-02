@@ -1,0 +1,79 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #e10600;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    margin-left: 1.5rem;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #15151e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Team Card Styles */
+  .team-card {
+    transition: transform 0.3s;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .team-logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: contain;
+  }
+  
+  /* Race Card Styles */
+  .race-card {
+    transition: transform 0.3s;
+  }
+  
+  .race-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Carousel custom styles */
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  
