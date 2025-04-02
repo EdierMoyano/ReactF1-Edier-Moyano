@@ -5,6 +5,7 @@ import Footer from "./pages/Footer"
 import Home from "./pages/Home"
 import Teams from "./pages/Teams"
 import Races from "./pages/Races"
+import Drivers from "./pages/drivers.jsx"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/teams" element={<Teams />} />
             <Route path="/races" element={<Races />} />
+            <Route path="/drivers" element={<Drivers />} />
           </Routes>
         </main>
         <Footer />
