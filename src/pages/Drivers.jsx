@@ -107,8 +107,8 @@ function Drivers() {
                 <p className="card-text mb-3">
                   <strong>Points:</strong> {driver.points}
                 </p>
-                <button className="btn btn-primary w-100" onClick={() => setSelectedDriver(driver)}>
-                  View Details
+                <button className="btn btn-danger w-100" onClick={() => setSelectedDriver(driver)}>
+                  Ver mas informacion
                 </button>
               </div>
             </div>
